@@ -1,0 +1,14 @@
+langchain==0.2.11
+langchain-core==0.2.43
+langchain-community==0.2.10
+langchain-text-splitters==0.2.2
+langchain-chroma
+langchain-openai==0.1.17
+langchain-huggingface
+langchain-groq
+python-dotenv
+pypdf
+streamlit
+chromadb
+sentence-transformers
+openai
