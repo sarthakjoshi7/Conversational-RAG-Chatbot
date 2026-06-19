@@ -27,7 +27,7 @@ api_key=st.secrets["GROQ_API_KEY"]
 if api_key:
     llm=ChatGroq(groq_api_key=api_key,model_name="llama-3.1-8b-instant")
     # Chat Interface
-    session_id=st.text_input("Session ID",value="default_session")
+    session_id=st.text_input("Session ID",value="Default_session")
     # Statefully Manage Chat History
     if 'store' not in st.session_state:
         st.session_state.store={}
@@ -65,7 +65,7 @@ if api_key:
         history_aware_retriever=create_history_aware_retriever(llm,retriever,contextualize_q_prompt)
         # Answer Question
         system_prompt=(
-            "You are an assistant for question-answering tasks. "
+            "You are an assistant for question answering tasks. "
             "Use the following pieces of retrieved context to answer "
             "the question. If you don't know the answer, say that you "
             "don't know. Use three sentences maximum and keep the "
