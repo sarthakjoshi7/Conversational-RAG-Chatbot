@@ -27,7 +27,7 @@ api_key=st.secrets["GROQ_API_KEY"]
 if api_key:
     llm=ChatGroq(groq_api_key=api_key,model_name="llama-3.1-8b-instant")
     # Chat Interface
-    session_id=st.text_input("Session ID",value="Default_session")
+    session_id=st.text_input("Session ID",value="Default_Session")
     # Statefully Manage Chat History
     if 'store' not in st.session_state:
         st.session_state.store={}
