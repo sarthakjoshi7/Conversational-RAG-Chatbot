@@ -8,6 +8,7 @@ langchain-huggingface
 langchain-groq
 python-dotenv
 pypdf
+protobuf==3.20.3
 streamlit
 chromadb
 sentence-transformers
