@@ -4,7 +4,7 @@ A Conversational Retrieval Augmented Generation (RAG) application built using La
 
 ## Project Goal
 
-This project demonstrates the implementation of a conversational RAG pipeline that enables users to interact with PDF documents through context-aware question answering and chat history management.
+This project demonstrates the implementation of a conversational RAG pipeline that enables users to interact with PDF documents through context aware question answering and chat history management.
 
 ## Features
 
